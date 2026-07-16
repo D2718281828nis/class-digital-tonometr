@@ -1,10 +1,5 @@
 #  Моделирование работы цифрового тонометра
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
-![Simulation](https://img.shields.io/badge/Simulation-Oscillometric-orange)
-
 ##  Содержание
 
 - [Описание проекта](#описание-проекта)
