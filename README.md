@@ -198,6 +198,7 @@ $$
 ### В Google Colab 
 
 1. Откройте [Google Colab](https://colab.research.google.com)
-2. Загрузите файл `tonometer_model.py`
+2. Загрузите файл `digital-tonometer-example.ipynb` [file_link](https://github.com/D2718281828nis/class-digital-tonometr/blob/main/digital-tonometer-example.ipynb)
 3. Выполните ячейки последовательно (`Shift + Enter`)
+
 
