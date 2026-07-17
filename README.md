@@ -49,8 +49,10 @@
 $$
 P(t) = 
 \begin{cases} 
-P_{\text{peak}} \cdot \left(\frac{t}{t_{\text{pump}}}\right)^{0.85}, & t \le t_{\text{pump}} \quad \text{(Pumping / Накачивание)} 
-P_{\text{peak}}, & t_{\text{pump}} < t \le t_{\text{plato}} \quad \text{(Plateau / Плато)} 
+P_{\text{peak}} \cdot \left(\frac{t}{t_{\text{pump}}}\right)^{0.85}, & t \le t_{\text{pump}} \quad \text{(Pumping / Накачивание)} //
+
+P_{\text{peak}}, & t_{\text{pump}} < t \le t_{\text{plato}} \quad \text{(Plateau / Плато)} //
+
 P_{\text{peak}} \cdot \exp\left(-\frac{t - t_{\text{plato}}}{\tau}\right), & t > t_{\text{plato}} \quad \text{(Venting / Стравливание)}
 \end{cases}
 $$
