@@ -44,10 +44,17 @@
 Модель основана на анализе колебаний давления в манжете, возникающих при передаче пульсовой волны от артерии.
 
 **Давление в манжете** моделируется тремя фазами:
-P(t) =
-P_peak * (t/t_pump)^0.85, t ≤ t_pump (накачивание)
-P_peak, t_pump < t ≤ t_plato (плато)
-P_peak * exp(-(t-t_plato)/τ), t > t_plato (стравливание)
+
+
+$$
+P(t) = 
+\begin{cases} 
+P_{\text{peak}} \cdot \left(\frac{t}{t_{\text{pump}}}\right)^{0.85}, & t \le t_{\text{pump}} \quad \text{(Pumping / Накачивание)} \\[10pt]
+P_{\text{peak}}, & t_{\text{pump}} < t \le t_{\text{plato}} \quad \text{(Plateau / Плато)} \\[10pt]
+P_{\text{peak}} \cdot \exp\left(-\frac{t - t_{\text{plato}}}{\tau}\right), & t > t_{\text{plato}} \quad \text{(Venting / Стравливание)}
+\end{cases}
+$$
+
 
 
 **Осцилляции давления** генерируются как сумма:
